@@ -1,0 +1,23 @@
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Roblox
+
+*.rbxl.lock
+*.rbxlx.lock
+
+# VS Code
+
+.vscode/settings.json
+
+# Packages
+
+node_modules/
+Packages/
+
+# Build output
+
+build/
+dist/

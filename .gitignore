@@ -21,3 +21,8 @@ Packages/
 
 build/
 dist/
+
+# Local tooling logs
+
+rojo-serve.log
+rojo-serve.err.log

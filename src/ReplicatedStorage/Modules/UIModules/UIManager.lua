@@ -1,4 +1,4 @@
-﻿local UIManager = {}
+local UIManager = {}
 local TweenService = game:GetService("TweenService")
 
 local ACCENT_COLOR = Color3.fromRGB(0, 212, 255)

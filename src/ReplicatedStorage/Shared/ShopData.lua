@@ -1,4 +1,4 @@
-﻿return {
+return {
 	Rifle = { WeaponName = "Rifle", Price = 0, Category = "Primary" },
 	Carbine = { WeaponName = "Carbine", Price = 850, Category = "Primary" },
 	SMG = { WeaponName = "SMG", Price = 1100, Category = "Primary" },

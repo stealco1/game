@@ -6,7 +6,42 @@
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "$path": "src/ReplicatedStorage",
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared",
+        "GameState": {
+          "$className": "StringValue",
+          "$properties": {
+            "Value": "Loading"
+          }
+        },
+        "ClientAction": {
+          "$className": "BindableEvent"
+        },
+        "KillSignal": {
+          "$className": "BindableEvent"
+        },
+        "AssistSignal": {
+          "$className": "BindableEvent"
+        }
+      },
+      "Modules": {
+        "$path": "src/ReplicatedStorage/Modules"
+      },
+      "Assets": {
+        "$path": "src/ReplicatedStorage/Assets"
+      },
+      "Config": {
+        "$path": "src/ReplicatedStorage/Config"
+      },
+      "EnvironmentModules": {
+        "$path": "src/ReplicatedStorage/EnvironmentModules"
+      },
+      "Weapons": {
+        "$path": "src/ReplicatedStorage/Weapons",
+        "Models": {
+          "$className": "Folder"
+        }
+      },
       "Remotes": {
         "$path": "src/ReplicatedStorage/Remotes",
         "WeaponRemotes": {
@@ -219,12 +254,20 @@
       }
     },
     "Workspace": {
-      "$path": "src/Workspace",
       "Baseplate": {
         "$path": "src/Workspace/Baseplate.rbxmx"
       },
       "LobbySpawn": {
         "$path": "src/Workspace/LobbySpawn.rbxmx"
+      },
+      "Maps": {
+        "$path": "src/Workspace/Maps"
+      },
+      "SpawnPoints": {
+        "$path": "src/Workspace/SpawnPoints"
+      },
+      "World": {
+        "$path": "src/Workspace/World"
       },
       "Spawns": {
         "$className": "Folder"

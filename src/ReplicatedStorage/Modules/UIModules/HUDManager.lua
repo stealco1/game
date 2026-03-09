@@ -1,4 +1,4 @@
-﻿local HUDManager = {}
+local HUDManager = {}
 local TweenService = game:GetService("TweenService")
 
 function HUDManager.UpdateHealth(player, current, max)

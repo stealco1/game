@@ -1,4 +1,4 @@
-﻿return {
+return {
 	Slots = {
 		Primary = {"Rifle", "Carbine", "SMG", "Sniper", "Shotgun"},
 		Secondary = {"Pistol"},

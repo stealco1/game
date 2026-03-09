@@ -1,4 +1,4 @@
-﻿local MenuManager = {}
+local MenuManager = {}
 local Players = game:GetService("Players")
 
 function MenuManager.ShowMenu(player)

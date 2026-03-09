@@ -1,4 +1,4 @@
-﻿local ShopUIManager = {}
+local ShopUIManager = {}
 
 function ShopUIManager.Open(player)
 	-- Handled by controller

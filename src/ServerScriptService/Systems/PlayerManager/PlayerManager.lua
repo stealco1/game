@@ -1,4 +1,4 @@
-﻿local PlayerManager = {}
+local PlayerManager = {}
 
 local function setDefaultAttributes(player)
 	if player:GetAttribute("IsLoading") == nil then player:SetAttribute("IsLoading", true) end

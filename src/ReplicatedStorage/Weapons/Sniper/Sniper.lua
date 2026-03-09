@@ -1,0 +1,1 @@
+return { Automatic = false, Damage = 80, FireRate = 1.1, HeadshotMultiplier = 2, MagazineSize = 5, MovementPenalty = 0.12, Pellets = 1, Range = 1200, RangeFalloff = { End = 1200, MinScale = 0.88, Start = 400, }, RecoilPattern = { 2.1, 0, 1.2, 0, }, ReloadTime = 2.5, ReserveAmmo = 25, Spread = 0.2, WeaponRole = "Sniper", }

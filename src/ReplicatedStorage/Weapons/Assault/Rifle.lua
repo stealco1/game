@@ -1,0 +1,1 @@
+return { Automatic = true, Damage = 24, FireRate = 0.1, HeadshotMultiplier = 1.6, MagazineSize = 30, MovementPenalty = 0.05, Pellets = 1, Range = 650, RangeFalloff = { End = 650, MinScale = 0.75, Start = 120, }, RecoilPattern = { 0.7, -0.2, 0.65, 0.1, 0.8, -0.1, 0.6, 0.2, }, ReloadTime = 1.8, ReserveAmmo = 120, Spread = 1.2, WeaponRole = "Assault", }

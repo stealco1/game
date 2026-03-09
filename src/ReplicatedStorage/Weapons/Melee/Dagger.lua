@@ -1,0 +1,1 @@
+return { Automatic = false, BackstabMultiplier = 2.2, Damage = 26, FireRate = 0.3, HeadshotMultiplier = 1, HitCone = 45, IsMelee = true, LungeDistance = 1.4, MagazineSize = 0, MovementPenalty = 0, Pellets = 1, Range = 7, RangeFalloff = { End = 7, MinScale = 1, Start = 0, }, RecoilPattern = { 0, 0, }, ReloadTime = 0, ReserveAmmo = 0, Spread = 0, WeaponRole = "Melee", }

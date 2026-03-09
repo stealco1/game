@@ -1,0 +1,1 @@
+return { Automatic = false, Damage = 9, FireRate = 0.85, HeadshotMultiplier = 1.25, MagazineSize = 8, MovementPenalty = 0.08, Pellets = 8, Range = 240, RangeFalloff = { End = 240, MinScale = 0.38, Start = 25, }, RecoilPattern = { 1.4, 0, 1.2, 0.05, }, ReloadTime = 2.3, ReserveAmmo = 40, Spread = 5, WeaponRole = "Shotgun", }

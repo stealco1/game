@@ -1,9 +1,174 @@
 {
   "name": "blah",
+  "servePlaceIds": [
+    80263598635811
+  ],
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "$path": "src/ReplicatedStorage"
+      "$path": "src/ReplicatedStorage",
+      "Remotes": {
+        "$path": "src/ReplicatedStorage/Remotes",
+        "WeaponRemotes": {
+          "$className": "Folder"
+        },
+        "PlayerRemotes": {
+          "$className": "Folder"
+        },
+        "ShopRemotes": {
+          "$className": "Folder"
+        },
+        "UIRemotes": {
+          "$className": "Folder",
+          "PlayGame": {
+            "$className": "RemoteEvent"
+          },
+          "OpenShop": {
+            "$className": "RemoteEvent"
+          },
+          "OpenLoadout": {
+            "$className": "RemoteEvent"
+          },
+          "OpenSettings": {
+            "$className": "RemoteEvent"
+          },
+          "CloseShop": {
+            "$className": "RemoteEvent"
+          },
+          "CloseLoadout": {
+            "$className": "RemoteEvent"
+          },
+          "BuyWeapon": {
+            "$className": "RemoteEvent"
+          },
+          "EquipWeapon": {
+            "$className": "RemoteEvent"
+          },
+          "SpawnPlayer": {
+            "$className": "RemoteEvent"
+          },
+          "UpdateAmmo": {
+            "$className": "RemoteEvent"
+          },
+          "UpdateWeapon": {
+            "$className": "RemoteEvent"
+          },
+          "UpdateHealth": {
+            "$className": "RemoteEvent"
+          },
+          "SetLoadout": {
+            "$className": "RemoteEvent"
+          },
+          "LoadoutSync": {
+            "$className": "RemoteEvent"
+          },
+          "ShopPurchaseResult": {
+            "$className": "RemoteEvent"
+          },
+          "CurrencyUpdated": {
+            "$className": "RemoteEvent"
+          },
+          "SelectTeam": {
+            "$className": "RemoteEvent"
+          },
+          "SubmitMapVote": {
+            "$className": "RemoteEvent"
+          },
+          "RequestTeamSwitchMenu": {
+            "$className": "RemoteEvent"
+          },
+          "RequestMainMenu": {
+            "$className": "RemoteEvent"
+          }
+        },
+        "MatchEvents": {
+          "$className": "Folder",
+          "StateChanged": {
+            "$className": "RemoteEvent"
+          },
+          "IntermissionStart": {
+            "$className": "RemoteEvent"
+          },
+          "MatchStart": {
+            "$className": "RemoteEvent"
+          },
+          "MatchEnd": {
+            "$className": "RemoteEvent"
+          },
+          "ReturnToLobby": {
+            "$className": "RemoteEvent"
+          },
+          "TeamSelectStart": {
+            "$className": "RemoteEvent"
+          },
+          "CountdownStart": {
+            "$className": "RemoteEvent"
+          },
+          "TeamCounts": {
+            "$className": "RemoteEvent"
+          },
+          "RespawnStart": {
+            "$className": "RemoteEvent"
+          },
+          "ScoreUpdate": {
+            "$className": "RemoteEvent"
+          },
+          "RoundResult": {
+            "$className": "RemoteEvent"
+          },
+          "KillFeed": {
+            "$className": "RemoteEvent"
+          },
+          "MatchTimerUpdate": {
+            "$className": "RemoteEvent"
+          }
+        },
+        "WeaponEvents": {
+          "$className": "Folder",
+          "Shoot": {
+            "$className": "RemoteEvent"
+          },
+          "Reload": {
+            "$className": "RemoteEvent"
+          },
+          "Equip": {
+            "$className": "RemoteEvent"
+          }
+        },
+        "CombatEvents": {
+          "$className": "Folder",
+          "AmmoUpdated": {
+            "$className": "RemoteEvent"
+          },
+          "WeaponUpdated": {
+            "$className": "RemoteEvent"
+          },
+          "Hitmarker": {
+            "$className": "RemoteEvent"
+          },
+          "KillConfirmed": {
+            "$className": "RemoteEvent"
+          },
+          "HealthUpdated": {
+            "$className": "RemoteEvent"
+          }
+        }
+      },
+      "RemoteEvents": {
+        "$className": "Folder",
+        "StartMapVote": {
+          "$className": "RemoteEvent"
+        },
+        "SubmitMapVote": {
+          "$className": "RemoteEvent"
+        },
+        "UpdateVoteCounts": {
+          "$className": "RemoteEvent"
+        },
+        "EndMapVote": {
+          "$className": "RemoteEvent"
+        }
+      }
     },
     "ServerScriptService": {
       "$path": "src/ServerScriptService"
@@ -15,13 +180,203 @@
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
       }
     },
     "StarterGui": {
-      "$path": "src/StarterGui"
+      "HUD": {
+        "$path": "src/StarterGui/HUD.rbxmx"
+      },
+      "MainUI": {
+        "$path": "src/StarterGui/MainUI.rbxmx"
+      },
+      "LoadingScreen": {
+        "$path": "src/StarterGui/LoadingScreen.rbxmx"
+      },
+      "MobileControls": {
+        "$path": "src/StarterGui/MobileControls.rbxmx"
+      },
+      "RotateDeviceOverlay": {
+        "$path": "src/StarterGui/RotateDeviceOverlay.rbxmx"
+      },
+      "TeamSelectMenu": {
+        "$path": "src/StarterGui/TeamSelectMenu.rbxmx"
+      },
+      "RoundCountdown": {
+        "$path": "src/StarterGui/RoundCountdown.rbxmx"
+      },
+      "RespawnUI": {
+        "$path": "src/StarterGui/RespawnUI.rbxmx"
+      },
+      "MapVoteMenu": {
+        "$path": "src/StarterGui/MapVoteMenu.rbxmx"
+      },
+      "SharedUI": {
+        "$className": "Folder",
+        "$path": "src/StarterGui/SharedUI"
+      }
     },
     "Workspace": {
-      "$path": "src/Workspace"
+      "$path": "src/Workspace",
+      "Baseplate": {
+        "$path": "src/Workspace/Baseplate.rbxmx"
+      },
+      "LobbySpawn": {
+        "$path": "src/Workspace/LobbySpawn.rbxmx"
+      },
+      "Spawns": {
+        "$className": "Folder"
+      },
+      "TemporaryEffects": {
+        "$className": "Folder"
+      }
+    },
+    "SoundService": {
+      "$path": "src/SoundService"
+    },
+    "Lighting": {
+      "$path": "src/Lighting",
+      "$properties": {
+        "Brightness": 1.2000000476837158,
+        "GlobalShadows": true,
+        "ShadowSoftness": 0.5,
+        "EnvironmentDiffuseScale": 1,
+        "EnvironmentSpecularScale": 1,
+        "ClockTime": 14,
+        "GeographicLatitude": 41.279998779296875,
+        "ExposureCompensation": 0,
+        "Ambient": {
+          "Color3": [
+            0.54902,
+            0.568627,
+            0.627451
+          ]
+        },
+        "OutdoorAmbient": {
+          "Color3": [
+            0.501961,
+            0.501961,
+            0.501961
+          ]
+        },
+        "ColorShift_Top": {
+          "Color3": [
+            0,
+            0,
+            0
+          ]
+        },
+        "ColorShift_Bottom": {
+          "Color3": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "Sky": {
+        "$className": "Sky",
+        "$properties": {
+          "SkyboxBk": "rbxassetid://6444884337",
+          "SkyboxDn": "rbxassetid://6444884785",
+          "SkyboxFt": "rbxassetid://6444884337",
+          "SkyboxLf": "rbxassetid://6444884337",
+          "SkyboxRt": "rbxassetid://6444884337",
+          "SkyboxUp": "rbxassetid://6412503613",
+          "SunTextureId": "rbxassetid://6196665106",
+          "MoonTextureId": "rbxassetid://6444320592",
+          "CelestialBodiesShown": true,
+          "StarCount": 3000
+        }
+      },
+      "SunRays": {
+        "$className": "SunRaysEffect",
+        "$properties": {
+          "Enabled": true,
+          "Intensity": 0.009999999776482582,
+          "Spread": 0.10000000149011612
+        }
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.30000001192092896,
+          "Offset": 0,
+          "Glare": 0,
+          "Haze": 0.5,
+          "Decay": {
+            "Color3": [
+              0.360784,
+              0.270588,
+              0.066667
+            ]
+          },
+          "Color": {
+            "Color3": [
+              0.780392,
+              0.666667,
+              0.419608
+            ]
+          }
+        }
+      },
+      "Bloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Enabled": true,
+          "Intensity": 1,
+          "Threshold": 2,
+          "Size": 24
+        }
+      },
+      "DepthOfField": {
+        "$className": "DepthOfFieldEffect",
+        "$properties": {
+          "Enabled": false,
+          "FarIntensity": 0.10000000149011612,
+          "InFocusRadius": 30,
+          "NearIntensity": 0.75,
+          "FocusDistance": 0.05000000074505806
+        }
+      },
+      "ColorCorrection": {
+        "$className": "ColorCorrectionEffect",
+        "$properties": {
+          "Enabled": true,
+          "Contrast": 0.10000000149011612,
+          "Saturation": 0.10000000149011612,
+          "TintColor": {
+            "Color3": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "Teams": {
+      "$path": "src/Teams",
+      "Pink": {
+        "$className": "Team",
+        "$properties": {
+          "TeamColor": {
+            "BrickColor": 330
+          },
+          "AutoAssignable": false
+        }
+      },
+      "Purple": {
+        "$className": "Team",
+        "$properties": {
+          "TeamColor": {
+            "BrickColor": 1031
+          },
+          "AutoAssignable": false
+        }
+      }
     }
   }
 }

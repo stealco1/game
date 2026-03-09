@@ -5,6 +5,8 @@ Thumbs.db
 
 # Roblox
 
+*.rbxl
+*.rbxlx
 *.rbxl.lock
 *.rbxlx.lock
 
@@ -26,3 +28,10 @@ dist/
 
 rojo-serve.log
 rojo-serve.err.log
+
+# Local audit and recovery artifacts
+
+AUDIT_EXPORT/
+ROJO_FIX_EXPORT/
+ROJO_MIGRATION_EXPORT/
+ROJO_FIX_EXPORT.zip
